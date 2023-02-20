@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+body {
+  all: unset;
+  box-sizing: border-box;
+  
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Dancing Script', cursive;
+  
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+.box {
+  min-height: 250px;
+  width: 75%;
+  background: #FF793F;
+  padding: 20px;
+  
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+p {
+  font-size: 22px;
+  font-family: 'Zeyada', cursive;
+}
+
+#btn {
+  font-size: 20px;
+  font-family: inherit;
+  color: #ffffff;
+  background: rgba(62, 62, 62, 1);
+  border: 1px solid transparent;
+  display: block;
+  padding: 10px 10px;
+}
+
+#btn:hover {
+  border: 4px solid rgba(7, 121, 179, 1);
+}
